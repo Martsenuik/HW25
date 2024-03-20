@@ -1,15 +1,27 @@
+* {
+box-sizing: border-box;
+}
+.wrap{
+    display: flex;
+}
 .block1{
-    color:rgb(137, 40, 56);
-    width: 100px;
+    background: rgb(255, 50, 84);
+    width: 130px;
     height: 150px;
 }
 .block2{
-    color:rgb(138, 17, 124);
-    width: 100px;
+    background-color: rgb(88, 17, 138);
+    width: 130px;
     height: 150px;
+    position: relative;
+    top: 50px;
+    right: 50px;
 }
 .block3{
-    color:rgb(18, 170, 41);
-    width: 100px;
+    background-color: rgb(18, 170, 41);
+    width: 130px;
     height: 150px;
+    position: relative;
+    right: 75px;
+    top: 110px;
 }
